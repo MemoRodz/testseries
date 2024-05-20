@@ -22,4 +22,4 @@
 <br />
 <hr />
 
-# 🚀 Y claro, que incluye mis datos de contacto.
+# 🚀 En actualización constante.
