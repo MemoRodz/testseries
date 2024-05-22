@@ -94,9 +94,14 @@ class Series {
         }
 
         let triangular = this.TriangularN(num - 1);
+        console.log(`Triangular ${triangular}`);
         let fibo = this.fibonacci(num + 2);
+        console.log(`Fibonacci: ${fibo}`);
         let primoN = this.primo(num);
+        console.log(`PrimoN: ${primoN}`);
 
-        return (primoN - triangular) / fibo;
+        let seriedad = (primoN - triangular) / fibo;
+
+        return seriedad;
       }
 }
